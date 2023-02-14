@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("./images/reveiwground.png");
+    background-image: url("./images/indexBackground.png");
     background-attachment: fixed;
   }
   
@@ -114,15 +114,16 @@ body {
     color: #FFFFFF;
   }
   
-  div{
+  .mainDiv{
     margin: auto;
     background-color: #FAF9F6;
-    width: 90%;
+    width: 70%;
     height: 150%;
-    position: center;
     font-family: 'Press Start 2P', cursive;
     box-shadow: 0 0 30px 0px;
+    float: left;
     font-family: 'Noto Serif Toto', serif;
+    margin: 0px 0px 0px 75px;
 }
 
   p{
@@ -137,3 +138,16 @@ body {
   .image{
     color: #FAF9F6;
   }
+
+.reveiws{
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+  background-color: #FAF9F6;
+  width: 20%;
+  height: 170%;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Noto Serif Toto', serif;
+  outline: 2px solid black;
+
+}
