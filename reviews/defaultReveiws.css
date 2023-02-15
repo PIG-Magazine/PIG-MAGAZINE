@@ -1,0 +1,154 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/Elden-Ring.png");
+    background-size: 10000000000%;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #1F1F1F;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #AA336A;
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+  }
+  nav a:hover {
+    background-color: rgb(247, 154, 169);
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h2 {
+    color: #1F1F1F;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  main img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  
+  main p {
+    color: #1F1F1F;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  main a {
+    color: #F5A623;
+    text-decoration: none;
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+  }
+  
+  aside h3 {
+    color: #1F1F1F;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  aside ul li{
+    font-size: 1.2em;
+  }
+  aside ul li a{
+    color: #1F1F1F;
+    text-decoration: none;
+  }
+  
+  footer {
+    clear: both;
+    background-color: #1F1F1F;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+  }
+  
+  .mainDiv{
+    margin: auto;
+    background-color: #FAF9F6;
+    width: 70%;
+    height: 150%;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 0 30px 0px;
+    float: left;
+    font-family: 'Noto Serif Toto', serif;
+    margin: 0px 0px 0px 75px;
+}
+
+  p{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+  a{
+  }
+
+  .image{
+    color: #FAF9F6;
+  }
+
+.reveiws{
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+  background-color: #FAF9F6;
+  width: 20%;
+  height: 170%;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Noto Serif Toto', serif;
+  outline: 2px solid black;
+
+}
